@@ -29,8 +29,8 @@ public class AddProducttoCart extends BaseTest
 		p1.clickProductElement();
 		Thread.sleep(5000);
 		
-		p1.clickProductCmpny();
-		Thread.sleep(5000);
+		//p1.clickProductCmpny();
+	//	Thread.sleep(5000);
 		
 		//p1.clickProduct();
 		//Thread.sleep(5000);

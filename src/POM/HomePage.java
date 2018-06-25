@@ -15,9 +15,9 @@ public class HomePage extends BasePage
 
 	@FindBy(xpath="//*[@id='sign-in']/a")
 	private WebElement signin;
-	
-	@FindBy(xpath="//li[@id='sc_uname']")      
-	private WebElement account;   
+	 
+	@FindBy(xpath="//li[@id='sc_uname']")              //     //li[@id='sc_uname']
+	private WebElement account;                  //  //*[@id="sc_uname"]/a
 	
 	@FindBy(xpath = "//span[@class='notification_count']")
 	private WebElement notification;
@@ -58,7 +58,6 @@ public class HomePage extends BasePage
 	
 	public void notification()
 	{
-		//AutoUtil.moveToElement(driver, notification);
 		notification.click();
 	}
 	
@@ -76,7 +75,6 @@ public class HomePage extends BasePage
 	public void accountClick()
 	{
 		account.click();
-	//	AutoUtil.moveToElement(driver, account);
 	}
 	
 	public void cartClick()

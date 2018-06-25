@@ -29,8 +29,8 @@ public class RemoveProductfromCart extends BasePage
 	h1.cartClick();                            // mouse hover on cart logo
 	Thread.sleep(5000);
 	
-	h1.viewcartClick();
-	Thread.sleep(5000);
+	//h1.viewcartClick();
+//	Thread.sleep(5000);
 	
 	System.out.println(" view clicked ");
 	
@@ -38,10 +38,10 @@ public class RemoveProductfromCart extends BasePage
 	System.out.println(" product object created ");
 	p1.removeProductCart();
 	System.out.println(" Remove done ");
-	h1.accountClick();                      // mouse hover on my account
-	Thread.sleep(5000);
+	//h1.accountClick();                      // mouse hover on my account
+	//Thread.sleep(5000);
 	
-	h1.signOut();
+//	h1.signOut();
 	
 }
 

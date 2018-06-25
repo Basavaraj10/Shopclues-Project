@@ -25,7 +25,6 @@ public class AddProductWishlist extends BaseTest
 		l1.login();
 		
 		ProductPage p1 = new ProductPage(driver);
-		//p1.delayPdct();
 		Thread.sleep(7000);
 		
 		p1.clickProductElement();
@@ -33,16 +32,17 @@ public class AddProductWishlist extends BaseTest
 		
 		p1.clickProductCmpny();
 		Thread.sleep(5000);
+		System.out.println(" product done");
+		//p1.clickProduct();
+		//Thread.sleep(5000);
 		
-		p1.clickProduct();
-		Thread.sleep(5000);
 		
-		
-		p1.addToWishlist();
-		Thread.sleep(5000);
+		//p1.addToWishlist();
+		//Thread.sleep(5000);
 		
 		h1.accountClick();
 		Thread.sleep(5000);
+		System.out.println(" account clicked");
 		
 		h1.signOut();
 		

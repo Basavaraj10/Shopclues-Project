@@ -3,6 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+      <class name="Scripts.ChangePassword">
+        <methods>
+          <include name="closeApp"/>
+          <include name="testingScript"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Scripts.ChangePassword -->
       <class name="Scripts.SearchProduct">
         <methods>
           <include name="closeApp"/>

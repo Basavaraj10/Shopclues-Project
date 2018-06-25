@@ -24,7 +24,7 @@ public class ProductPage extends BasePage
 	@FindBy(xpath="//*[@id='add_cart']")
 	private WebElement addCart;
 	
-	@FindBy(xpath="//*[@id='pdp_wishlist']")
+	@FindBy(xpath="//*[@id='product_list']/div[3]/div[1]/a[1]")
 	private WebElement addWishList;
 	
 	public ProductPage(WebDriver driver)
@@ -42,7 +42,6 @@ public class ProductPage extends BasePage
 		pdctcmpny.click();
 	}
 
-	
 	public void clickProduct()
 	{
 		clickableElement(product);
@@ -59,9 +58,7 @@ public class ProductPage extends BasePage
 	}
 	
 	public void addToWishlist() 
-	{													//      product addded to cart
+	{													
 		addWishList.click();
 	}
-	
-
 }

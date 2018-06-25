@@ -9,7 +9,7 @@ import Genericlib.BasePage;
 
 public class LocationPage extends BasePage 
 {
-	@FindBy(xpath="//input[@id='pin_code_popup']")
+	@FindBy(id="pin_code_popup")
 	private WebElement addpin;
 	
 	@FindBy(id="get_pincode_popup")

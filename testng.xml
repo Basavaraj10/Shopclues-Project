@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Scripts.CheckNotification"/>
+      <class name="Scripts.AddProducttoCart"/>
+      <class name="Scripts.AddProductWishlist"/>
+      <class name="Scripts.SearchProduct"/>
+      <class name="Scripts.RemoveProductfromCart"/>
+      <class name="Scripts.RemoveProductfromWishList"/>
+      <class name="Scripts.ChangePassword"/>
+      <class name="Scripts.CheckProductInCart"/>
+      <class name="Scripts.SharePinCode"/>
+      <class name="Scripts.CheckProductinWishlist"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

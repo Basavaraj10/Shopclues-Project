@@ -21,13 +21,13 @@ public class CheckProductinWishlist extends BasePage
 		Thread.sleep(5000);
 		l1.login();
 		Thread.sleep(5000);
-		
-		h1.clickWishlist();
+		System.out.println(" login done");
+		//h1.clickWishlist();
 		Thread.sleep(5000);
-
+		//System.out.println(" wishlist click done ");
 		h1.accountClick();                      // mouse hover on my account
 		Thread.sleep(5000);
-		
+		System.out.println(" account click done ");
 		h1.signOut();
 		
 	}

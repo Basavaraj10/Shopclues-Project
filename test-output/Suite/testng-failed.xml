@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Scripts.AddProducttoCart">
+        <methods>
+          <include name="closeApp"/>
+          <include name="testingScript"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Scripts.AddProducttoCart -->
+      <class name="Scripts.ChangePassword">
+        <methods>
+          <include name="closeApp"/>
+          <include name="testingScript"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Scripts.ChangePassword -->
+      <class name="Scripts.CheckProductInCart">
+        <methods>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+          <include name="testingScript"/>
+        </methods>
+      </class> <!-- Scripts.CheckProductInCart -->
+      <class name="Scripts.SharePinCode">
+        <methods>
+          <include name="testingScript"/>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Scripts.SharePinCode -->
+      <class name="Scripts.AddProductWishlist">
+        <methods>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+          <include name="testingScript"/>
+        </methods>
+      </class> <!-- Scripts.AddProductWishlist -->
+      <class name="Scripts.CheckNotification">
+        <methods>
+          <include name="closeApp"/>
+          <include name="testingScript"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Scripts.CheckNotification -->
+      <class name="Scripts.CheckProductinWishlist">
+        <methods>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+          <include name="testingScript"/>
+        </methods>
+      </class> <!-- Scripts.CheckProductinWishlist -->
+      <class name="Scripts.RemoveProductfromCart">
+        <methods>
+          <include name="testingScript"/>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Scripts.RemoveProductfromCart -->
+      <class name="Scripts.SearchProduct">
+        <methods>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+          <include name="testingScript"/>
+        </methods>
+      </class> <!-- Scripts.SearchProduct -->
+      <class name="Scripts.RemoveProductfromWishList">
+        <methods>
+          <include name="testingScripts"/>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Scripts.RemoveProductfromWishList -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

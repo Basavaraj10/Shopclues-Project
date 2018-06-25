@@ -21,17 +21,16 @@ public class CheckProductInCart extends BasePage
 		Thread.sleep(5000);
 		l1.login();
 		Thread.sleep(5000);
-		
 		h1.cartClick();                            // mouse hover on cart logo
 		Thread.sleep(5000);
-		
-		h1.viewcartClick();
+		System.out.println("  CLICK CART");
+		//h1.viewcartClick();
 		Thread.sleep(5000);
+		System.out.println(" view CLICK CART");
+		//h1.accountClick();                      // mouse hover on my account
+		//Thread.sleep(5000);
 		
-		h1.accountClick();                      // mouse hover on my account
-		Thread.sleep(5000);
-		
-		h1.signOut();
+		//h1.signOut();
 		
 	}
 

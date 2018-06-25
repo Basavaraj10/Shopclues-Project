@@ -34,7 +34,7 @@ public class SharePinCode extends BasePage
 	LocationPage l2 = new LocationPage(driver); // location page object is created
 	
 	Thread.sleep(5000);
-	l2.enterLocationPin(Genericlib.Excel.excelSheet(Sheet, 0, 3, path));      //   takes location pin
+	l2.enterLocationPin("753004");      //   takes location pin
 	
 	System.out.println(" entering pin done");
 	
