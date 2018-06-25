@@ -15,8 +15,6 @@ public class LocationPage extends BasePage
 	@FindBy(id="get_pincode_popup")
 	private WebElement submitpin;
 	
-	
-	
 	public LocationPage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);

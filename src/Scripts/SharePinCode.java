@@ -23,32 +23,22 @@ public class SharePinCode extends BasePage
 	Thread.sleep(5000);
 	l1.login();
 	
-	System.out.println(" Loging done");
+	Thread.sleep(5000);
+	h1.shareLocation();                               
 	
 	Thread.sleep(5000);
-	h1.shareLocation();                               // click on share location
-	
-	System.out.println(" Share location done");
+	LocationPage l2 = new LocationPage(driver); 
 	
 	Thread.sleep(5000);
-	LocationPage l2 = new LocationPage(driver); // location page object is created
-	
-	Thread.sleep(5000);
-	l2.enterLocationPin("753004");      //   takes location pin
-	
-	System.out.println(" entering pin done");
+	l2.enterLocationPin("753004");      
 	
 	Thread.sleep(5000); 
-	l2.submitLocationPin();                                   //    clicks on submit button
-	
-	System.out.println(" submit done");
+	l2.submitLocationPin();                                 
 	
 	Thread.sleep(10000);
-	h1.accountClick();                                      // clicks on my account 
+	h1.accountClick();                                      
 	
-	System.out.println(" account clicking done");
-	
-	Thread.sleep(5000);                                  //         click on sign out
+	Thread.sleep(5000);                                  
 	h1.signOut();
 	
 	

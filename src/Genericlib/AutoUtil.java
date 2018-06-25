@@ -24,10 +24,10 @@ public class AutoUtil
 		a.doubleClick(ele).perform();
 	}
 	
-	/*public static void draganddrop(WebDriver driver, WebElement ele)
+	public static void draganddrop(WebDriver driver, WebElement ele,WebElement target)
 	{
 		Actions a = new Actions(driver);
-		a.doubleClick(ele).perform();
-	}*/
+		a.dragAndDrop(ele, target).perform();
+	}
 
 }

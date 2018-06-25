@@ -12,13 +12,13 @@ public class ProductPage extends BasePage
 	@FindBy(xpath="//*[@id='nav_2']/a")          
 	private WebElement pdctElement; 
 	
-	@FindBy(xpath="(//*[@id='column_1']/ul/li[7]/a)[1]")         /// //img[@id="det_img_125282511"]
+	@FindBy(xpath="(//*[@id='column_1']/ul/li[7]/a)[1]")        
 	private WebElement pdctcmpny;
 	
 	@FindBy(xpath="//a[@class='remove']")
 	private WebElement pdtRemovecart;
 	
-	@FindBy(xpath=" //img[contains(@id,'det_img_125282511')]")                     //  //img[contains(@id,'det_img_125282511')]             
+	@FindBy(xpath=" //img[contains(@id,'det_img_125282511')]")                                
 	private WebElement product;
 	
 	@FindBy(xpath="//*[@id='add_cart']")

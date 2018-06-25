@@ -14,11 +14,11 @@ public class RemoveProductfromCart extends BasePage
 	public void testingScript() throws InterruptedException
 	{
 	
-	HomePage h1 = new HomePage(driver);          // go to home page
+	HomePage h1 = new HomePage(driver);          
 	h1.signIn();
 	Thread.sleep(5000);
 	
-	LoginPage l1 = new LoginPage(driver);         // open login page
+	LoginPage l1 = new LoginPage(driver);        
 	l1.username(Genericlib.Excel.excelSheet(Sheet, 0, 0, path));   
 	Thread.sleep(5000);
 	l1.password(Genericlib.Excel.excelSheet(Sheet, 0, 1, path));
@@ -26,11 +26,11 @@ public class RemoveProductfromCart extends BasePage
 	l1.login();
 	Thread.sleep(5000);
 	
-	h1.cartClick();                            // mouse hover on cart logo
+	h1.cartClick();                            
 	Thread.sleep(5000);
 	
-	//h1.viewcartClick();
-//	Thread.sleep(5000);
+	h1.viewcartClick();
+	Thread.sleep(5000);
 	
 	System.out.println(" view clicked ");
 	
@@ -38,10 +38,10 @@ public class RemoveProductfromCart extends BasePage
 	System.out.println(" product object created ");
 	p1.removeProductCart();
 	System.out.println(" Remove done ");
-	//h1.accountClick();                      // mouse hover on my account
-	//Thread.sleep(5000);
+	h1.accountClick();                      
+	Thread.sleep(5000);
 	
-//	h1.signOut();
+	h1.signOut();
 	
 }
 

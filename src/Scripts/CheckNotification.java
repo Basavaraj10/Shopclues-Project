@@ -24,17 +24,11 @@ public class CheckNotification extends BasePage
 	Thread.sleep(5000);
 	l1.login();
 	
-	System.out.println(" loging done ");
-	
 	Thread.sleep(5000);     
 	h1.notification();
 	
-	System.out.println(" notification done ");
-	
 	Thread.sleep(5000);
 	h1.accountClick();
-	
-	System.out.println(" account opening done ");
 	
 	Thread.sleep(5000);
 	h1.signOut();

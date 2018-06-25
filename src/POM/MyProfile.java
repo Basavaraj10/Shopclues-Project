@@ -54,9 +54,4 @@ public class MyProfile extends BasePage
 	{
 		 changepwdbtn.click();
 	}
-	
-	
-	
-	
-	
 }

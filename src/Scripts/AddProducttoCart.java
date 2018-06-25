@@ -29,14 +29,14 @@ public class AddProducttoCart extends BaseTest
 		p1.clickProductElement();
 		Thread.sleep(5000);
 		
-		//p1.clickProductCmpny();
-	//	Thread.sleep(5000);
+		p1.clickProductCmpny();
+		Thread.sleep(5000);
 		
-		//p1.clickProduct();
-		//Thread.sleep(5000);
-		                                         //dont erase
-		//p1.addToCart();
-		//Thread.sleep(5000);
+		p1.clickProduct();
+		Thread.sleep(5000);
+		                                         
+		p1.addToCart();
+		Thread.sleep(5000);
 		
 		h1.accountClick();
 		Thread.sleep(5000);
